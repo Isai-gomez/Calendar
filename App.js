@@ -6,10 +6,13 @@ import { View } from "react-native";
 export default class App extends Component {
   render() {
     return (
-      <View>
+      <View
+        style={{
+          paddingTop: 40
+        }}
+      >
         <Mycalendar />
       </View>
     );
   }
 }
-const style = {};
